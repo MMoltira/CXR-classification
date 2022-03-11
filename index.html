@@ -70,7 +70,7 @@
             <div class="col-md-8 col-md-offset-2 text-center">
                 <ul class="nav nav-pills nav-justified">
                     <li>
-                        <a href="https://drive.google.com/drive/u/1/folders/1_7JdcQwKmC6i1LNevT9ArV3P1Vl_6BMa">
+                        <a href="https://drive.google.com/file/d/1CBzVjulsBA21cIAAJ03HMg4eZR7_T9rT/view">
                             <img src="./NeRV_files/248145076_654552122415768_5009897034601265047_n.png" height="120px" /><br />
                             <h4><strong>Report</strong></h4>
                         </a>
@@ -96,27 +96,17 @@
                 <hr>
                 <img src="./NeRV_files/แผนผังระบบ.png" class="img-responsive" alt="overview" /><br />
                 <p class="text-justify">
-                    &emsp;&emsp;&emsp;Nowadays, there are a lot of efforts to use
-                    intelligent algorithms to detect gun related incidents in CCTV.
-                    However, this approach cannot prevent the gun incidents before they
-                    happen. So, we present here an algorithm and the system which can
-                    detect people with concealed gun in order to early alarm before the
-                    incident happens.
-                    <br />&emsp;&emsp;&emsp;We develop the algorithm by first collecting
-                    videos of gun incidents from YouTube.com. We then prepare the
-                    dataset by dividing a video into 2 parts: the concealed gun part and
-                    the label part. After that, we use PoseFlow to track individual and
-                    train different learning algorithms on the dataset. The experiment
-                    shows that Random Forest outperforms Support Vector Machine,
-                    Decision Tree, Logistic Regression by having 77%, Accuracy, 76%
-                    Recall, 63% Precision and 69% F1-Score. <br />&emsp;&emsp;&emsp;For
-                    the system we develop API which detects concealed gun based on
-                    Random Forest algorithm. In order to demonstrate and debug the
-                    system, we also develop the Web Application that take a video as an
-                    input and output probabilities of having concealed gun for all
-                    people in the video. Moreover, when a subject with concealed gun is
-                    detected, the system sends Line notification to the pre-configured
-                    user.
+                    &emsp;&emsp;&emsp;ในปัจจุบันนี้ การตรวจหาโรคยังเป็นเรื่องปกติสำหรับทุกคน แต่ด้วย
+                    ค่าใช้จ่ายที่ค่อนข้างสูงทำให้หลาย ๆ คนไม่สามารถเข้าถึงการตรวจหาโรคเบื้องต้นได้ 
+                    อีกทั้งในพื้นที่ชนบทยังคงมีเทคโนยีอย่างจำกัด เช่น เครื่อง TC scan ทำให้คุณหมอมีภาระงานที่เพิ่มมากขึ้น
+                     และในการตรวจครั้งหนึ่งก็ใช้เวลาในการรอผลนาน เราจึงได้มีการนำเสนอวิธีการตรวจหาโรคเบื้องต้นด้วยวิธีการเรียนรู้ด้วยเครื่อง 
+                     ผ่านเว็บแอปพลิเคชันที่สร้างขึ้นเพื่อเป็นตัวช่วยให้คุณหมอสามารถตรวจคัดกรองได้เร็วขึ้น
+                    <br />&emsp;&emsp;&emsp;<strong>สำหรับวิธีการใช้งาน คือ </strong>
+                    <br />&emsp;&emsp;&emsp;1. เข้าสู้หน้าเว็บแอปพลิเคชัน
+                    <br />&emsp;&emsp;&emsp;2. ทำการล็อคอินเพื่อเข้าใช้งาน
+                    <br />&emsp;&emsp;&emsp;3. เลือกรูปภาพที่ต้องการทำนาย
+                    <br />&emsp;&emsp;&emsp;4. เมื่อเว็บแอปพริเคชันแสดงผลการทำนายถือว่าสิ้นสุดการทำงาน
+                    <br />&emsp;&emsp;&emsp;5. แพทย์ผู้เชี่ยวชาญพิจารณาประกอบการตัดสินใจ <br />&emsp;&emsp;&emsp;
                 </p>
             </div>
         </div>
